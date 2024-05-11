@@ -10,7 +10,7 @@
             "target": "",
             "x86_64": {
                 "file_path": ".",
-                "file_name": "Dockerfile",
+                "file_name": "Dockerfile.validator",
                 "build_path": "."
             }
         }
