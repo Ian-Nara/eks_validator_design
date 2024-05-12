@@ -23,6 +23,7 @@ spec:
             limits:
               aws.ec2.nitro/nitro_enclaves: "1"
               hugepages-1Gi: 24576Mi
+              cpu: 250m
             requests:
               aws.ec2.nitro/nitro_enclaves: "1"
               hugepages-1Gi: 24576Mi

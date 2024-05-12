@@ -45,5 +45,6 @@ COPY --from=full_image /ne-deps /
 
 COPY bin/fake-validator.eif /home
 COPY eks_validator_design/run.sh  /home
+RUN chmod +x /home/run.sh
 
 CMD ["/home/run.sh"]
