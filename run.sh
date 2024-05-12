@@ -3,7 +3,7 @@
 
 readonly EIF_PATH="/home/fake-validator.eif"
 readonly ENCLAVE_CPU_COUNT=2
-readonly ENCLAVE_MEMORY_SIZE=128
+readonly ENCLAVE_MEMORY_SIZE=1024
 
 main() {
     nitro-cli run-enclave --cpu-count $ENCLAVE_CPU_COUNT --memory $ENCLAVE_MEMORY_SIZE \

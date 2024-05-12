@@ -23,11 +23,9 @@ spec:
             limits:
               aws.ec2.nitro/nitro_enclaves: "1"
               hugepages-1Gi: 24576Mi
-              memory: 2048Mi
             requests:
               aws.ec2.nitro/nitro_enclaves: "1"
               hugepages-1Gi: 24576Mi
-              memory: 2048Mi
           volumeMounts:
             - mountPath: /dev/hugepages
               name: hugepage
