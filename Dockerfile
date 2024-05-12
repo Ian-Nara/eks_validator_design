@@ -44,6 +44,6 @@ FROM amazonlinux:2 as image
 COPY --from=full_image /ne-deps /
 
 COPY bin/fake-validator.eif /home
-COPY validator/run.sh  /home
+COPY eks_validator_design/run.sh  /home
 
 CMD ["/home/run.sh"]
